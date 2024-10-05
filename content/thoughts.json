@@ -1,5 +1,10 @@
 [
   {
+    "id": "1728111113355",
+    "content": "大多数值得拥有的知识都来自于「实践」，来自于「做」，它来自于「创造」。阅读有关与中国的贸易战的文章并不会让你变得更聪明，而是让你在晚宴上有话可说。它给你一种错觉，你对我们极其复杂的世界中正在发生的事情有最模糊的了解。\n\nMost knowledge worth having comes from practice. It comes from doing. It comes from creating. Reading about the trade war with China doesn’t make you smarter—it gives you something to say at dinner parties. It gives you the illusion that you have the vaguest idea what is happening in our enormously complex world.\n\nhttps://blog.tjcx.me/p/consume-less-create-more",
+    "timestamp": "2024-10-05T06:51:53.355Z"
+  },
+  {
     "id": "1728111094716",
     "content": "Mac 总是莫名其妙 快捷键冲突、快捷键失效，今天终于找到病根了！原来在「服务」里，藏着大量自动添加的快捷键！大部分都是 ⌘+Shift+字母。\n\n位置：系统偏好设置 - 键盘 - 键盘快捷键 - 服务\n\n今天把这里一堆自动生成的快捷键全给清空了，非必要不给快捷键，除非是我手动自定义的。",
     "timestamp": "2024-10-05T06:51:34.716Z"
