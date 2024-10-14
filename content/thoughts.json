@@ -1,5 +1,10 @@
 [
   {
+    "id": "1728876336374",
+    "content": "```CSS\n\t\t\t\t/* 上下居中 */\n\t\t\t\t\n\t\t\t\t/* 方法一： */\n\t\t\t\ttop: 50%;\n\t\t\t\tmargin-top: -100px;\n\t\t\t\t\n\t\t\t\t/* 方法二： ❌ 无效 */ \n\t\t\t\t/* 因为 margin 垂直50%是无效的 */ \n\t\t\t\tmargin-top: 50%;\n\t\t\t\ttop: -100px;\n\t\t\t\t\n\t\t\t\t/* 方法三： */\n\t\t\t\tbottom: 50%;\n\t\t\t\tmargin-bottom: -100px;\n\t\t\t\t\n\t\t\t\t/* 方法四： ❌ 无效 */\n\t\t\t\t/* 因为 margin 垂直50%是无效的 */ \n\t\t\t\tmargin-bottom: 50%;\n\t\t\t\tbottom: -100px;\n```",
+    "timestamp": "2024-10-14T03:25:36.374Z"
+  },
+  {
     "id": "1728876311290",
     "content": "```CSS\n\t\t\t\t/* 绝对定位的盒子 */\n\t\t\t\tposition: absolute;\n\t\t\t\t\n\t\t\t\t/* 水平居中 */\n\t\t\t\t\n\t\t\t\t/* 方法一： */\n\t\t\t\tleft: 50%;\n\t\t\t\tmargin-left: -200px;\n\t\t\t\t\n\t\t\t\t/* 方法二： */\n\t\t\t\tmargin-left: 50%;\n\t\t\t\tleft: -200px;\n\t\t\t\t\n\t\t\t\t/* 方法三： */\n\t\t\t\tright: 50%;\n\t\t\t\tmargin-right: -200px;\n\t\t\t\t\n\t\t\t\t/* 方法四： */\n\t\t\t\tmargin-right: 50%;\n\t\t\t\tright: -200px;\n```",
     "timestamp": "2024-10-14T03:25:11.290Z"
