@@ -1,5 +1,10 @@
 [
   {
+    "id": "1728876348465",
+    "content": "## 万能写法：\n`transform: translate(-50%, -50%);` \n让盒子位移：\n- 在x轴方向上，沿着反方向移动自身宽度的一半；\n- 在y轴方向上，沿着反方向移动自身高度的一半；",
+    "timestamp": "2024-10-14T03:25:48.465Z"
+  },
+  {
     "id": "1728876336374",
     "content": "```CSS\n\t\t\t\t/* 上下居中 */\n\t\t\t\t\n\t\t\t\t/* 方法一： */\n\t\t\t\ttop: 50%;\n\t\t\t\tmargin-top: -100px;\n\t\t\t\t\n\t\t\t\t/* 方法二： ❌ 无效 */ \n\t\t\t\t/* 因为 margin 垂直50%是无效的 */ \n\t\t\t\tmargin-top: 50%;\n\t\t\t\ttop: -100px;\n\t\t\t\t\n\t\t\t\t/* 方法三： */\n\t\t\t\tbottom: 50%;\n\t\t\t\tmargin-bottom: -100px;\n\t\t\t\t\n\t\t\t\t/* 方法四： ❌ 无效 */\n\t\t\t\t/* 因为 margin 垂直50%是无效的 */ \n\t\t\t\tmargin-bottom: 50%;\n\t\t\t\tbottom: -100px;\n```",
     "timestamp": "2024-10-14T03:25:36.374Z"
