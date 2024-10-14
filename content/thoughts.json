@@ -1,5 +1,10 @@
 [
   {
+    "id": "1728876372367",
+    "content": "### 垂直居中：\n```CSS\n\t/* 方法1： */\n\ttop: 50%;\n\ttransform: translate(0, -50%);\n\t/* 方法2： */\n\tbottom: 50%;\n\ttransform: translate(0, 50%);\n```\n",
+    "timestamp": "2024-10-14T03:26:12.367Z"
+  },
+  {
     "id": "1728876362790",
     "content": "### 水平居中：\n```CSS\n\t/* 方法1： */\n\tleft: 50%;\n\ttransform: translate(-50%, 0);\n\t/* 方法2： */\n\tright: 50%;\n\ttransform: translate(50%, 0);\n```\n",
     "timestamp": "2024-10-14T03:26:02.790Z"
