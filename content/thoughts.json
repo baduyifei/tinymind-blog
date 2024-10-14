@@ -1,5 +1,10 @@
 [
   {
+    "id": "1728912991138",
+    "content": "### 问题：\n图片的底部总是有一个缝隙，取消不掉。\n\n### 原因：\n是因为所有的 **行内块** 元素，包括 **img 图片** ，默认的垂直对齐方式，都是使用的 **vertical-align: baseline 基线对齐**。\n有的字母，比如 you 里面的 y，下面多一个。\n\n### 解决方法：\n修改图片的对齐方式，改为除 baseline 之外的任意一个都可以。\n常见的是 改为middle。\n\n### 应用：\n京东会把所有的img属性初始化：\n```CSS\nimg{border:0;vertical-align:middle}\n```",
+    "timestamp": "2024-10-14T13:36:31.138Z"
+  },
+  {
     "id": "1728876380331",
     "content": "### 水平居中+垂直居中：\n```CSS\n\t/* 方法1： */\n\tleft: 50%;\n\ttop: 50%;\n\ttransform: translate(-50%, -50%);\n\t\n\t/* 方法2： */\n\tright: 50%;\n\tbottom: 50%;\n\ttransform: translate(50%, 50%);\n```\n\n",
     "timestamp": "2024-10-14T03:26:20.331Z"
