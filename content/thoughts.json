@@ -1,5 +1,10 @@
 [
   {
+    "id": "1728876362790",
+    "content": "### 水平居中：\n```CSS\n\t/* 方法1： */\n\tleft: 50%;\n\ttransform: translate(-50%, 0);\n\t/* 方法2： */\n\tright: 50%;\n\ttransform: translate(50%, 0);\n```\n",
+    "timestamp": "2024-10-14T03:26:02.790Z"
+  },
+  {
     "id": "1728876348465",
     "content": "## 万能写法：\n`transform: translate(-50%, -50%);` \n让盒子位移：\n- 在x轴方向上，沿着反方向移动自身宽度的一半；\n- 在y轴方向上，沿着反方向移动自身高度的一半；",
     "timestamp": "2024-10-14T03:25:48.465Z"
