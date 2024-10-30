@@ -1,5 +1,10 @@
 [
   {
+    "id": "1730248498517",
+    "content": "VSCode神技-让双手不离键盘\nhttps://juejin.cn/post/6844904119224926216",
+    "timestamp": "2024-10-30T00:34:58.517Z"
+  },
+  {
     "id": "1730210055107",
     "content": "Cursor一键导入vscode插件以及设置\n\n从 VS Code 迁移\n导入扩展、主题、设置和快捷键绑定 \n您可以一键将您的 VS Code 配置导入到 Cursor。\n\n在cursor中找到 setting-- general -- vscode import 导入配置，一键导入即可。",
     "timestamp": "2024-10-29T13:54:15.107Z"
