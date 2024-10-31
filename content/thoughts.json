@@ -1,5 +1,10 @@
 [
   {
+    "id": "1730333677215",
+    "content": "js 中获取整个 body 的标签：document.body",
+    "timestamp": "2024-10-31T00:14:37.215Z"
+  },
+  {
     "id": "1730333667524",
     "content": "prototype \nNAmE /ˈproʊtətaɪp/\nBrE /ˈprəʊtətaɪp/ \n\nprototype：NodeList\nprototype：Array",
     "timestamp": "2024-10-31T00:14:27.524Z"
