@@ -1,5 +1,10 @@
 [
   {
+    "id": "1730530461559",
+    "content": "```html\n<script>\n\t// 添加边界检查:数组的正常范围是[0,arrDate.length-1],如果比最小值 0 还小，\n\t// 则：循环到最后一张\n\tif (num < 0) {\n\t\tnum = arrDate.length - 1;\n\t}\n\t// 添加边界检查:数组的正常范围是[0,arrDate.length-1],如果比最大值arrDate.length-1还大，\n\t// 则：循环到第一张\n\tif (num > arrDate.length - 1) {\n\t\tnum = 0;\n\t}\n</script>\n```",
+    "timestamp": "2024-11-02T06:54:21.559Z"
+  },
+  {
     "id": "1730530360979",
     "content": "js 中回调函数「函数的引用」和「函数的调用」",
     "timestamp": "2024-11-02T06:52:40.979Z"
