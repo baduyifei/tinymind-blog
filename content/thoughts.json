@@ -1,5 +1,10 @@
 [
   {
+    "id": "1730852567638",
+    "content": "AlloyFinger 非常轻量的开源手势库\nAlloyFinger 是由腾讯前端团队 AlloyTeam 出品的一个小巧轻量级的移动端手势库，整个手势库的代码不超过400行，却支持绝大多数的手势操作，能够满足日常的开发需求。\n\nAlloyFinger传送门（github）： AlloyFinger https://github.com/AlloyTeam/AlloyFinger 。\n\n网站地址:http://alloyteam.github.io/AlloyFinger/\nGitHub:https://github.com/AlloyTeam/AlloyFinger\n网站描述:一款非常轻量的开源手势库\n\n## 引入在线 js 地址：\n```js\n<script src=\"https://unpkg.com/alloyfinger@0.1.16/alloy_finger.js\"></script>\n```\n\n## js 文件下载地址：\nhttp://alloyteam.github.io/AlloyFinger/alloy_finger.js",
+    "timestamp": "2024-11-06T00:22:47.638Z"
+  },
+  {
     "id": "1730766748532",
     "content": "- `parseInt()` 可以接受第二个参数指定进制，更适合用于字符串解析场景\n- `Math.floor()` 专注于数字运算，更适合纯数学计算场景",
     "timestamp": "2024-11-05T00:32:28.532Z"
