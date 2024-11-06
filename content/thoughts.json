@@ -1,5 +1,10 @@
 [
   {
+    "id": "1730936092023",
+    "content": "9小时前 — 美国前总统唐纳德·特朗普（Donald Trump）击败现任副总统卡玛拉·哈里斯（Kamala Harris），赢得了一个新的为期四年的总统任期。",
+    "timestamp": "2024-11-06T23:34:52.023Z"
+  },
+  {
     "id": "1730852567638",
     "content": "AlloyFinger 非常轻量的开源手势库\nAlloyFinger 是由腾讯前端团队 AlloyTeam 出品的一个小巧轻量级的移动端手势库，整个手势库的代码不超过400行，却支持绝大多数的手势操作，能够满足日常的开发需求。\n\nAlloyFinger传送门（github）： AlloyFinger https://github.com/AlloyTeam/AlloyFinger 。\n\n网站地址:http://alloyteam.github.io/AlloyFinger/\nGitHub:https://github.com/AlloyTeam/AlloyFinger\n网站描述:一款非常轻量的开源手势库\n\n## 引入在线 js 地址：\n```js\n<script src=\"https://unpkg.com/alloyfinger@0.1.16/alloy_finger.js\"></script>\n```\n\n## js 文件下载地址：\nhttp://alloyteam.github.io/AlloyFinger/alloy_finger.js",
     "timestamp": "2024-11-06T00:22:47.638Z"
