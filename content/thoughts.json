@@ -1,5 +1,10 @@
 [
   {
+    "id": "1731027159909",
+    "content": "\n`swipe: function() {代码}` 这种写法是 JavaScript 中的对象字面量（object literal）语法。在这里，`swipe` 是对象的一个属性名，属性值是一个函数（anonymous function，即没有名称的函数）。\n",
+    "timestamp": "2024-11-08T00:52:39.909Z"
+  },
+  {
     "id": "1731027102720",
     "content": "- **遍历数组**：更强调**查询获取**\n- **迭代数组**：更强调**修改**",
     "timestamp": "2024-11-08T00:51:42.720Z"
