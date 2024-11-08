@@ -1,5 +1,10 @@
 [
   {
+    "id": "1731027078311",
+    "content": "draw.io: 当公司付钱给我们时，应该是因为我们增加了价值，而不是因为他们被锁定了。\n\nhttps://www.drawio.com/about\n\nWe promise you we won’t hide your data from you and will always give you some way to open and edit that data, at no cost. When companies pay us money it should be because we add value, not because they are locked in.\n我们向您保证，我们不会向您隐藏您的数据，并且始终为您提供一些免费打开和编辑该数据的方法。当公司付钱给我们时，应该是因为我们增加了价值，而不是因为他们被锁定了。",
+    "timestamp": "2024-11-08T00:51:18.311Z"
+  },
+  {
     "id": "1731027043588",
     "content": "form 表单：重置表单的两种方式\n\n添加 `form.reset()` 来清空表单\n`reset()` 是表单对象的内置方法，可以将表单所有输入框重置为初始状态\n这样用户添加完数据后就不需要手动清空输入框了，提高了使用体验\n",
     "timestamp": "2024-11-08T00:50:43.588Z"
