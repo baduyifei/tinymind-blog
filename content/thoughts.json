@@ -1,5 +1,10 @@
 [
   {
+    "id": "1731889704577",
+    "content": "在 JavaScript 中，当你使用 const arr = new Array(2, 3); 时，arr 被称为“实例对象”或“实例”，而 Array 是一个“构造函数”。",
+    "timestamp": "2024-11-18T00:28:24.577Z"
+  },
+  {
     "id": "1731889688078",
     "content": "new Object()构造函数只接受一个参数，而不是多个参数",
     "timestamp": "2024-11-18T00:28:08.078Z"
