@@ -1,5 +1,10 @@
 [
   {
+    "id": "1731977235704",
+    "content": "新华字典就是答案之书。\n随手翻到一页，视线聚焦的那个字，就是你想要的答案。",
+    "timestamp": "2024-11-19T00:47:15.704Z"
+  },
+  {
     "id": "1731889722296",
     "content": "构造函数（Constructor）：是一个用于创建对象的传统 JavaScript 函数，通常以大写字母开头。\n\nfunction MyConstructor() {}\nconst myInstance = new MyConstructor();\n实例对象（Instance/Object Instance）：是使用构造函数创建的特定对象。每个实例都有其自己的属性和方法，可以独立于其他实例存在。",
     "timestamp": "2024-11-18T00:28:42.296Z"
