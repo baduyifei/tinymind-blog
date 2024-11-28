@@ -1,5 +1,10 @@
 [
   {
+    "id": "1732757106233",
+    "content": "promise 对象的调用关系：\n\n\n1. **关于 fn1**：\n```javascript:1.html\nconst p = new Promise(function fn1(fn2, fn3) {\n```\n- `fn1` 是 Promise 构造函数的参数，是一个执行器函数(executor)\n- `fn2` 和 `fn3` 是 `fn1` 的形参，它们实际上就是 Promise 内部提供的 `resolve` 和 `reject` 函数\n\n2. **关于 fn2/fn3 的调用**：\n```javascript:1.html\nfn2(resObj);    // 这里调用的是 resolve\nfn3('失败');     // 这里调用的是 reject\n```\n- `fn2()` 和 `fn3()` 是函数调用\n- 这里是在执行器函数内部调用了这两个函数\n- Promise 内部机制决定了只有第一次调用 `resolve` 或 `reject` 才会生效\n\n3. **关于 fn22 和 fn33**：\n```javascript:1.html\np.then(function fn22(res) {\n    // ...\n})\n.catch(function fn33(err) {\n    // ...\n});\n```\n- `fn22` 是 `.then()` 的回调函数，是实参\n- `fn33` 是 `.catch()` 的回调函数，是实参\n- 当 `fn2(resObj)` (resolve) 被调用时，会触发 `fn22` 的执行\n- 当 `fn3('失败')` (reject) 被调用时，会触发 `fn33` 的执行\n\n调用关系总结：\n1. Promise 构造函数调用了 `fn1`\n2. `fn1` 内部调用了 `fn2` (resolve) 或 `fn3` (reject)\n3. Promise 内部机制根据 `fn2`/`fn3` 的调用来决定执行 `fn22` 还是 `fn33`\n\n所以整个流程是：\n```\nPromise构造函数 -> fn1 -> fn2/fn3 -> fn22/fn33\n```\n\n这就是为什么我们说 Promise 能够管理异步操作，\n它通过这种 **函数调用链** 来确保异步操作的结果能够被正确地处理。",
+    "timestamp": "2024-11-28T01:25:06.233Z"
+  },
+  {
     "id": "1732757023525",
     "content": "事件循环：\n- 调用栈（js 的同步代码）\n- 宿主环境（浏览器）（等待时间的异步任务）\n- 任务队列（到时间的异步任务）",
     "timestamp": "2024-11-28T01:23:43.525Z"
