@@ -1,5 +1,10 @@
 [
   {
+    "id": "1733971407257",
+    "content": "/** @format */\n\n// 导入 (基于 CommonJS 标准语法)\nconst obj1 = require('./lib/arr.js');\nconst obj2 = require('./lib/str.js');\n// console.log(obj1.getArraySum([1, 2, 3]));\n// console.log(obj2.checkUser('1111'));\n// console.log(obj2.checkPwd('12345678'));\n\n// 导出 (基于 CommonJS 标准语法)\nmodule.exports = {\n\t...obj1,\n\t...obj2,\n};\n",
+    "timestamp": "2024-12-12T02:43:27.257Z"
+  },
+  {
     "id": "1733971386837",
     "content": "/** @format */\n\n// 导入 (基于 CommonJS 标准语法)\nconst objServer = require('./utils/index.js');\nconsole.log(objServer);\n// console.log(objServer.obj1);\n// console.log(objServer.obj2);\n// console.log(objServer.obj1.getArraySum([1, 2, 3]));\n// console.log(objServer.obj2.checkUser('1111'));\n// console.log(objServer.obj2.checkPwd('12345678'));\n",
     "timestamp": "2024-12-12T02:43:06.837Z"
