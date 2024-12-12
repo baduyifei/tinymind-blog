@@ -1,5 +1,10 @@
 [
   {
+    "id": "1733971386837",
+    "content": "/** @format */\n\n// 导入 (基于 CommonJS 标准语法)\nconst objServer = require('./utils/index.js');\nconsole.log(objServer);\n// console.log(objServer.obj1);\n// console.log(objServer.obj2);\n// console.log(objServer.obj1.getArraySum([1, 2, 3]));\n// console.log(objServer.obj2.checkUser('1111'));\n// console.log(objServer.obj2.checkPwd('12345678'));\n",
+    "timestamp": "2024-12-12T02:43:06.837Z"
+  },
+  {
     "id": "1733914878940",
     "content": "瑞安·达尔Ryan Dahl 的 个人网站： https://tinyclouds.org/\nTwitter： https://x.com/rough__sea\nGitHub：  https://github.com/ry",
     "timestamp": "2024-12-11T11:01:18.940Z"
