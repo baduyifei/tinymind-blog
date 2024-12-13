@@ -1,5 +1,10 @@
 [
   {
+    "id": "1734073655371",
+    "content": "我电脑中的4 个解压软件：keka、bandizip、MacZip、FastZip\n解压这个 `vue.rar` 课件压缩包的时候：\n1. keka： ✅ 解压成功，解压出来的文件夹大小 `953.5MB`\n2. bandizip： ✅ 解压成功，解压出来的文件夹大小 `953.5MB`\n3. MacZip： ✅ 解压成功，但是界面卡顿了很久，解压出来的文件夹大小 `950MB`\n4. FastZip：❌ 解压失败，提示数据已被破坏。无语😒",
+    "timestamp": "2024-12-13T07:07:35.371Z"
+  },
+  {
     "id": "1733971462275",
     "content": "/**\n * @format\n */\n\nconst checkUserName = (username) => {\n\treturn username.length >= 8;\n};\n\nconst checkPassWord = (password) => {\n\treturn password.length >= 6;\n};\n\n// 导出 (基于 CommonJS 标准语法)\nmodule.exports = {\n\tcheckUser: checkUserName,\n\tcheckPwd: checkPassWord,\n};",
     "timestamp": "2024-12-12T02:44:22.275Z"
