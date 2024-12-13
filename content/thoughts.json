@@ -1,5 +1,10 @@
 [
   {
+    "id": "1734073715329",
+    "content": "{\n  \"compilerOptions\": {\n    \"target\": \"es5\",\n    \"module\": \"esnext\",\n    \"baseUrl\": \"./\",\n    \"moduleResolution\": \"node\",\n    \"paths\": {\n      \"@/*\": [\n        \"src/*\"\n      ]\n    },\n    \"lib\": [\n      \"esnext\",\n      \"dom\",\n      \"dom.iterable\",\n      \"scripthost\"\n    ]\n  }\n}\n",
+    "timestamp": "2024-12-13T07:08:35.329Z"
+  },
+  {
     "id": "1734073693211",
     "content": "# demo\n\n## Project setup\n```\nnpm install\n```\n\n### Compiles and hot-reloads for development\n```\nnpm run serve\n```\n\n### Compiles and minifies for production\n```\nnpm run build\n```\n\n### Lints and fixes files\n```\nnpm run lint\n```\n\n### Customize configuration\nSee [Configuration Reference](https://cli.vuejs.org/config/).\n",
     "timestamp": "2024-12-13T07:08:13.211Z"
