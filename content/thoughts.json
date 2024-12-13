@@ -1,5 +1,10 @@
 [
   {
+    "id": "1734073693211",
+    "content": "# demo\n\n## Project setup\n```\nnpm install\n```\n\n### Compiles and hot-reloads for development\n```\nnpm run serve\n```\n\n### Compiles and minifies for production\n```\nnpm run build\n```\n\n### Lints and fixes files\n```\nnpm run lint\n```\n\n### Customize configuration\nSee [Configuration Reference](https://cli.vuejs.org/config/).\n",
+    "timestamp": "2024-12-13T07:08:13.211Z"
+  },
+  {
     "id": "1734073672424",
     "content": "const { defineConfig } = require('@vue/cli-service')\nmodule.exports = defineConfig({\n  transpileDependencies: true\n})\n",
     "timestamp": "2024-12-13T07:07:52.424Z"
