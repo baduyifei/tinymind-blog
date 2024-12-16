@@ -1,5 +1,10 @@
 [
   {
+    "id": "1734309331016",
+    "content": "Java主要的包管理工具有： Maven 、Gradle 、 Ant\n\n### 1. Maven\n```\n优点：\n- 最流行的Java构建工具\n- 生态系统成熟\n- XML配置方式\n\n配置文件：pom.xml\n示例：\n<dependency>\n    <groupId>org.springframework</groupId>\n    <artifactId>spring-core</artifactId>\n    <version>5.3.9</version>\n</dependency>\n```\n\n### 2. Gradle\n```\n优点：\n- 基于Groovy的DSL语法\n- 构建速度更快\n- 配置更灵活\n\n配置文件：build.gradle\n示例：\ndependencies {\n    implementation 'org.springframework:spring-core:5.3.9'\n}\n```\n\n### 3. Ant\n```\n特点：\n- 最早的Java构建工具\n- 灵活但配置繁琐\n- 现在用得较少\n\n配置文件：build.xml\n```\n\n### 4. 对比：\n```\nMaven：\n- 企业级项目标准选择\n- 配置简单规范\n- 学习成本适中\n\nGradle：\n- 更现代的构建工具\n- Android开发标配\n- 更灵活但学习成本高\n\nAnt：\n- 较老的技术\n- 过于底层和灵活\n- 逐渐被淘汰\n```\n\n主流选择：\n- 传统企业项目：Maven\n- Android开发：Gradle\n- 新项目推荐：Maven或Gradle\n",
+    "timestamp": "2024-12-16T00:35:31.016Z"
+  },
+  {
     "id": "1734254653805",
     "content": "\n1. 历史发展\n```\nnpm: 2010年发布，最早的node包管理器\nyarn: 2016年由Facebook推出，为解决npm问题\npnpm: 2017年出现，新一代包管理器\n```\n\n2. 当前趋势\n```\nnpm：\n- npm v7以后性能大幅提升\n- 仍是Node.js默认包管理器\n\nyarn：\n- Yarn 2（Berry）推出，带来新特性\n- 但改动较大，争议也大\n\npnpm：\n- 正在快速发展\n- 被越来越多项目采用\n```\n\n3. 性能对比（从快到慢）\n```\npnpm > yarn > npm\n```\n\n4. 最新推荐\n```\n首选：pnpm\n- 更快的安装速度\n- 更节省磁盘空间\n- 更严格的依赖管理\n\n其次：yarn/npm\n- 生态更成熟\n- 社区支持更好\n- 使用更广泛\n```",
     "timestamp": "2024-12-15T09:24:13.805Z"
