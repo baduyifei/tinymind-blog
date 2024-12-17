@@ -1,5 +1,10 @@
 [
   {
+    "id": "1734397447457",
+    "content": "\"built files will be auto injected\" 翻译为 \"构建的文件将被自动注入\"。\n\n具体解释：\n1. 当你运行 `npm run build` 或类似的构建命令时，Vue CLI 会：\n   - 将你的源代码编译打包\n   - 生成最终的 JavaScript 和 CSS 文件\n   - 自动将这些文件注入到 index.html 中\n\n2. 实际效果就是，构建后的 index.html 会自动包含类似这样的代码：\n```html\n<script src=\"/js/chunk-vendors.xxxx.js\"></script>\n<script src=\"/js/app.xxxx.js\"></script>\n<link href=\"/css/app.xxxx.css\" rel=\"stylesheet\">\n```\n\n3. 这个注释是提醒开发者：\n   - 不需要手动在 HTML 中引入这些文件\n   - webpack 会自动处理文件的注入\n   - 这些文件的名称会包含哈希值，用于缓存控制\n\n这是现代前端构建工具的一个常见特性，它简化了资源管理，并确保浏览器能够正确加载所有必需的文件。",
+    "timestamp": "2024-12-17T01:04:07.457Z"
+  },
+  {
     "id": "1734397369570",
     "content": "最新的 chrome 浏览器不显示 vue 调试工具控制台\nhttps://v2ex.com/t/1017466",
     "timestamp": "2024-12-17T01:02:49.570Z"
