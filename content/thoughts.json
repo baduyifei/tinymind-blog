@@ -1,5 +1,10 @@
 [
   {
+    "id": "1748567142881",
+    "content": "#AI未来 一觉醒来，DeepSeek 又炸了：DeepSeek-R1-0528 幻觉降低近 50%，深度思考、推理能力、创意写作、工具调用、前端代码生成能力都有提升。\n\n\nDeepSeek-R1-0528 已在网页端、APP 和小程序中上线，开启「深度思考」功能即可体验最新版本。同时，API 也同步更新，接口与调用方式保持不变。\n\n\nDeepSeek 开源了 R1-0528 模型，并公布了模型权重（DeepSeek-R1-0528 模型权重下载参考）：\n\n•\nModel Scope: https://modelscope.cn/models/deepseek-ai/DeepSeek-R1-0528\n•\nHuggingface: https://huggingface.co/deepseek-ai/DeepSeek-R1-0528 ",
+    "timestamp": "2025-05-30T01:05:42.881Z"
+  },
+  {
     "id": "1735788545264",
     "content": "谷歌 learn about 和 perplexity 区别\n“Learn About” 底层是基于LearnLM 模型，但从“Learn About” 的整体思路来看，其核心是“搜索+AI”，\n目前很多搜索工具已经有类似的方式，比如\n- perplexity.ai\n- 秘塔搜索",
     "timestamp": "2025-01-02T03:29:05.264Z"
